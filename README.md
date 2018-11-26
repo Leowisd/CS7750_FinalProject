@@ -6,7 +6,7 @@ The project uses simulated annealing algorithm to make a flight schedule for peo
 
 ### Language Environment
 
-Pyhton3
+Python3
 
 ### Issues
 
