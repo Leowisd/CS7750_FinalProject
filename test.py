@@ -16,6 +16,7 @@ import optimization
 #     # print the final solution
 #     optimization.printschedule(s)
 
+
 # domain: the range of each value in the solution, the range is decided on how many choices of each pair of two places can be choosed 
 domain=[(0,3)]*(len(optimization.people)*2)
 
