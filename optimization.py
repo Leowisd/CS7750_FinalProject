@@ -91,7 +91,7 @@ def schedulecost(sol):
 # Returns:
 #   vec: the best solution after the optimization
 # ===========================================================================================
-def annealingoptimize(domain,costf,T=10000.0,cool=0.99,step=5):
+def annealingoptimize(domain,costf,T=10000.0,cool=0.99,step=1):
   # Initialize the values randomly
   vec=[float(random.randint(domain[i][0],domain[i][1])) 
        for i in range(len(domain))]
